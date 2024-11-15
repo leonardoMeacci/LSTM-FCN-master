@@ -1,0 +1,1 @@
+leggi all'interno del codice come sono strutturati i dati per capire quali prendere
