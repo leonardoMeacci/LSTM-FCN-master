@@ -52809,7 +52809,7 @@ specimenDataPoints = [
 resistance_values = [(vector[1], 0) for vector in specimenDataPoints]
 
 # Salva i valori in un file CSV
-with open('resistance_values.csv', 'w', newline='') as csvfile:
+with open('resistance_values2.csv', 'w', newline='') as csvfile:
     csvwriter = csv.writer(csvfile)
     csvwriter.writerow(['Resistance Gassensor', 'Value'])
     csvwriter.writerows(resistance_values)

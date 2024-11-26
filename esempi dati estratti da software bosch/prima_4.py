@@ -86286,7 +86286,7 @@ specimenDataPoints = [
 resistance_values = [(vector[1], 3) for vector in specimenDataPoints]
 
 # Aggiungi i valori in un file CSV esistente
-with open('resistance_values.csv', 'a', newline='') as csvfile:
+with open('resistance_values2.csv', 'a', newline='') as csvfile:
     csvwriter = csv.writer(csvfile)
     # Non scrivere l'intestazione se il file esiste già
     if csvfile.tell() == 0:
